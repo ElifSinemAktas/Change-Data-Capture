@@ -1,0 +1,25 @@
+[train@trainvm Debezium]$ docker exec -it debezium-connect-1 /bin/bash
+[kafka@21502f681531 ~]$ ll
+total 68
+-rw-rw-rw-. 1 root  root  14842 Sep 29 19:03 LICENSE
+-rw-rw-rw-. 1 root  root  28184 Sep 29 19:03 NOTICE
+drwxrwxrwx. 1 root  root     32 Jan 19 03:16 bin
+drwxrwxrwx. 3 root  root   4096 Mar 16 14:42 config
+drwxr-xr-x. 3 kafka kafka  4096 Jan 19 03:16 config.orig
+drwxr-xr-x. 1 kafka kafka   239 Jan 19 03:33 connect
+drwxrwxrwx. 2 kafka kafka     6 Jan 19 03:16 data
+drwxr-xr-x. 1 kafka kafka    32 Jan 19 03:33 external_libs
+drwxrwxrwx. 2 root  root   8192 Jan 19 03:16 libs
+drwxrwxrwx. 2 root  root   4096 Sep 29 19:06 licenses
+drwxrwxrwx. 2 kafka kafka    74 Mar 16 15:02 logs
+[kafka@21502f681531 ~]$ cd connect
+[kafka@21502f681531 connect]$ ll
+total 28
+drwxr-xr-x. 2 kafka kafka  216 Jan 19 03:33 debezium-connector-db2
+drwxr-xr-x. 2 kafka kafka 4096 Jan 19 03:33 debezium-connector-mongodb
+drwxr-xr-x. 2 kafka kafka 4096 Jan 19 03:33 debezium-connector-mysql
+drwxr-xr-x. 2 kafka kafka 4096 Jan 19 03:33 debezium-connector-oracle
+drwxr-xr-x. 2 kafka kafka 4096 Jan 19 03:33 debezium-connector-postgres
+drwxr-xr-x. 2 kafka kafka 4096 Jan 19 03:33 debezium-connector-sqlserver
+drwxr-xr-x. 2 kafka kafka 4096 Jan 19 03:33 debezium-connector-vitess
+[kafka@21502f681531 connect]$
