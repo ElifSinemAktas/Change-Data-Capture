@@ -19,14 +19,14 @@ for x in mycursor:
   print(x)
 
 # ########## INSERT ##############
-# sql = "INSERT INTO demo (customerId, customerFName, customerLName, customerCity) VALUES (%s, %s, %s, %s)"
+# sql = "INSERT INTO example (customerId, customerFName, customerLName, customerCity) VALUES (%s, %s, %s, %s)"
 # val = (200, "Elif", "Aktas", "Highway 21")
 # mycursor.execute(sql, val)
 # mydb.commit()
 # print(mycursor.rowcount, "record inserted.")
 
 # ######### UPDATE ##############
-# sql = "UPDATE demo SET customerCity = 'Ocean Drive 6' WHERE customerId = 200"
+# sql = "UPDATE example SET customerCity = 'Ocean Drive 6' WHERE customerId = 200"
 # mycursor.execute(sql)
 # mydb.commit()
 # print(mycursor.rowcount, "record(s) affected")
